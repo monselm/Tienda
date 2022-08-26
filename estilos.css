@@ -9,8 +9,12 @@ body{
 header{
     width: 100%;
     overflow: hidden;
-    background: #252932;
+    background: #653F90;;
     margin-bottom: 20px;
+}
+.img-soporte{
+    width: 70px;
+ 
 }
 
 .wrapper{
@@ -22,7 +26,8 @@ header{
 
 header .logo{
     color: #f2f2f2;
-    font-size: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 200px;
     float: left;
 }
@@ -39,6 +44,7 @@ header nav a {
     padding: 10px 20px;
     line-height: normal;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
@@ -46,7 +52,7 @@ header nav a {
 }
 
 header nav a:hover{
-    background: #f56f3a;
+    background: #fe3728;
     border-radius: 50px;
 }
 
@@ -65,10 +71,15 @@ header nav a:hover{
     line-height: 100px;
 }
 
+.header2 .img-soporte{
+    width: 70px;
+   
+}
+
 /*.contenido{
     padding-top: 100px;
-}
-*/
+}*/
+
 .contenido p {
     margin-bottom: 1em;
 }
@@ -84,7 +95,11 @@ header nav a:hover{
         height:auto;
     }
     .header2 .logo,
-    .header2 nav{
+    .header2 nav
+    {
         line-height: 50px;
     }
+
+
+
 }
