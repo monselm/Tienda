@@ -122,4 +122,5 @@ header nav a:hover{
     padding-top: 100px;
     background-attachment: fixed;
     z-index: 1;
+    margin: auto;
 }
