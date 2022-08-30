@@ -1,26 +1,27 @@
-*{margin:0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     background: #fffffa;
 }
 
-header{
+header {
     width: 100%;
     overflow: hidden;
     background: #343a40 !important;
     margin-bottom: 20px;
 }
 
-.wrapper{
+.wrapper {
     width: 90%;
     max-width: 1000px;
-    margin:auto;
-    overflow:hidden;
+    margin: auto;
+    overflow: hidden;
 }
 
-header .logo{
+header .logo {
     color: #f2f2f2;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,7 +29,7 @@ header .logo{
     float: left;
 }
 
-header nav{
+header nav {
     float: right;
     line-height: 200px;
 }
@@ -61,31 +62,31 @@ header nav{
     transition: all 500ms ease;
 }
 
-header nav a:hover{
+header nav a:hover {
     background: #36689b;
     border-radius: 50px;
 }
 
-.header2{
+.header2 {
     position: fixed;
     height: 100px;
     z-index: 2;
 
 }
 
-.header2 .logo{
+.header2 .logo {
     line-height: 100px;
     font-size: 30px;
 }
 
-.header2 nav{
+.header2 nav {
     line-height: 100px;
 }
 
-.header2 .img-soporte{
+.header2 .img-soporte {
 
     width: 200px;
-    
+
 }
 
 /*.img-soporte{
@@ -101,26 +102,104 @@ header nav a:hover{
 }
 
 @media screen and (max-width: 950px) {
+
     header .logo,
-    header nav{
-        width:100%;
+    header nav {
+        width: 100%;
         text-align: center;
         line-height: 100px;
     }
-    .header2{
-        height:auto;
+
+    .header2 {
+        height: auto;
     }
+
     .header2 .logo,
-    .header2 nav
-    {
+    .header2 nav {
         line-height: 50px;
     }
 
 }
 
-.carrusel{
+.carrusel {
     padding-top: 100px;
     background-attachment: fixed;
     z-index: 1;
     margin: auto;
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+.container {
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-mac {
+    width: 500px;
+
+}
+
+
+.centrado {
+    position: absolute;
+    padding-left: 550px;
+    top: 83%;
+    width: 60%;
+    height: 10%;
+
+}
+
+.pmac {
+    font-size: 20px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.pdesc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 35px;
+}
+
+
+
+.btn-info {
+    background: #000;
+    border: 1px solid #ffffff;
+    width: 250px;
+    text-align: center;
+    border-radius: .25rem;
+  }
+
+.container a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+#section1 .centrado a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#section1 .centrado a:hover {
+    background: #36689b;
+    border: 1px solid #ffffff;
+
 }
