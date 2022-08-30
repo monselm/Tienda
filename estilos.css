@@ -121,6 +121,45 @@ header nav a:hover {
 
 }
 
+@media screen and (max-width: 950px) {
+
+    /*#section1 .container, .pdesc, .pmac {
+        width: 100%;
+        text-align: center;
+        line-height: 100px;
+    }*/
+
+    #section1 {
+        height: auto;
+        background-color: #000;
+    }
+
+    #section1 .img-mac{
+        width: 250px;
+
+    }
+    #section1 .pdesc{
+        
+            font-size: 20px;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        
+    }
+
+    #section1  .centrado{
+       
+        width: 100%;
+       /* padding-right: 50px;*/
+        padding-left: 45%;
+       margin-right: auto;
+        margin-left: auto;
+        /*margin-top: -350px;*/
+    
+    }
+}
+
+
 .carrusel {
     padding-top: 100px;
     background-attachment: fixed;
@@ -134,10 +173,9 @@ header nav a:hover {
 
 .container {
     width: 100%;
-    padding-right: 100px;
-    padding-left: 25%;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: 20%;
+    padding-left: 24%;
+
 }
 
 .img-mac {
@@ -145,14 +183,14 @@ header nav a:hover {
 
 }
 
-
 .centrado {
-    position: absolute;
-    padding-left: 550px;
-    top: 83%;
-    width: 60%;
-    height: 10%;
+  float: right;
+  width: 500px;
+  padding-top: 60px;
+}
 
+.lineado{
+    line-height: 10px;
 }
 
 .pmac {
@@ -167,7 +205,6 @@ header nav a:hover {
     color: #fff;
     font-size: 35px;
 }
-
 
 
 .btn-info {
@@ -200,6 +237,6 @@ header nav a:hover {
 
 #section1 .centrado a:hover {
     background: #36689b;
-    border: 1px solid #ffffff;
+    border: 1px solid #36689b;
 
 }
