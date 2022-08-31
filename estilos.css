@@ -3,6 +3,82 @@
     padding: 0;
 }
 
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 body {
     background: #fffffa;
 }
@@ -183,12 +259,12 @@ header nav a:hover {
 }
 
 .centrado {
-  float: right;
-  width: 500px;
-  padding-top: 60px;
+    float: right;
+    width: 500px;
+    padding-top: 60px;
 }
 
-.lineado{
+.lineado {
     line-height: 10px;
 }
 
@@ -196,10 +272,10 @@ header nav a:hover {
     font-size: 20px;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
 
-.pdesc{
+.pdesc {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     font-size: 35px;
@@ -212,7 +288,7 @@ header nav a:hover {
     width: 250px;
     text-align: center;
     border-radius: .25rem;
-  }
+}
 
 /*.container a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -244,10 +320,11 @@ header nav a:hover {
     background-color: #f3f3f3;
 }
 
-.img-sam{
-   width: 550px;
-   margin-top: 50px;
+.img-sam {
+    width: 550px;
+    margin-top: 50px;
 }
+
 .container1 {
     width: 100%;
     padding-right: 17%;
@@ -255,20 +332,21 @@ header nav a:hover {
     height: 450px;
 
 }
+
 .psam {
     font-size: 20px;
     color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
 
-.pdescsam{
+.pdescsam {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000;
     font-size: 35px;
 }
 
-.centrado1{
+.centrado1 {
     float: right;
     width: 550px;
     padding-top: 100px;
@@ -307,3 +385,154 @@ header nav a:hover {
     border: 1px solid #36689b;
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CODIGO DE SECTION FALLIDO*/
+
+
+
+
+
+.justify-content-center {
+    /*-ms-flex-pack: center !important;*/
+    justify-content: center !important;
+}
+
+.m40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.row {
+    /*display: -ms-flexbox;*/
+    display: flex;
+    /*-ms-flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.pcont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 30px;
+}
+
+.bg-celeste {
+    background-color: #f4f4f6;
+
+}
+
+.radios1 {
+    border-radius: 25px;
+}
+
+@media(min-width: 768px){
+.col-md-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;}
+}
+
+/*.col-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}*/
+
+
+.figura {
+    position: relative;
+    /*width: 360px;*/
+    max-width: 100%;
+    display: inline-block;
+}
+
+.figura img.img-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+/*.contenedor .figura  a:hover{
+    background: #36689b;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 20px 20px 20px 20px;
+
+}*/
+
+
+.container2 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.m1510 {
+    margin: 15px 0 -10px;
+}
+
+.font10 {
+    font-size: 10pt;
+}
+
+.bg-celeste a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.font8 {
+    font-size: 8pt;
+}
+
+.col-md-1 {
+    /*-ms-flex: 0 0 8.333333%;*/
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+
+/*.Contenedor{
+    width: 500px;
+    float: right;
+}*/
+
+/*FIN DEL SECTION FALLIDO*/
