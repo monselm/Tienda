@@ -431,6 +431,7 @@ footer {
     max-width: 1600px;
     margin: auto;
     padding: 40px;
+    
 }
 
 .contenedor1 {
@@ -530,4 +531,67 @@ footer {
     .colum3 {
         margin-top: 40px;
     }
+}
+
+.container-apple{
+   width: 100%;
+    padding-right: 20%;
+    padding-left: 24%;
+    height: auto;
+    padding-top: 100px;
+
+
+}
+
+.container-apple h2{
+    color: #36689b;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.desc-apple{
+padding-left: 30px;
+max-width: 85%;
+}
+
+.Sub-desc{
+    padding-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.desc{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.iphone{
+    width: 90px;
+    height: 90px;
+text-align: center;
+    border-radius: 7px;
+    border: 1px solid #36689b;
+    box-shadow: 0 0 10px 2px rgba(108, 179, 223, 0.815);
+    background-color: #f3f3f3;
+ padding-top: 10px;
+
+}
+
+.cont-img-serv{
+    float: inline-start;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+#section-apple{
+    width: 100%;
+margin-right: auto;
+margin-left: auto;
+height: 400px;
+padding-top: 10px;
+
+}
+
+.iphone p{
+    padding-top: 10px;
 }
