@@ -400,7 +400,7 @@ button:active {
 .con-img {
     float: inline-start;
     padding-left: 100px;
-  
+
 
 
 }
@@ -431,7 +431,7 @@ footer {
     max-width: 1600px;
     margin: auto;
     padding: 40px;
-    
+
 }
 
 .contenedor1 {
@@ -533,8 +533,8 @@ footer {
     }
 }
 
-.container-apple{
-   width: 100%;
+.container-apple {
+    width: 100%;
     padding-right: 20%;
     padding-left: 24%;
     height: auto;
@@ -543,55 +543,126 @@ footer {
 
 }
 
-.container-apple h2{
+.container-apple h2 {
     color: #36689b;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.desc-apple{
-padding-left: 30px;
-max-width: 85%;
+    font-family: sans-serif;
+
 }
 
-.Sub-desc{
+.desc-apple {
+    padding-left: 30px;
+    max-width: 85%;
+}
+
+.Sub-desc {
     padding-top: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
 
-.desc{
+.desc {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-  
+
 }
 
-.iphone{
+.iphone {
     width: 90px;
     height: 90px;
-text-align: center;
-    border-radius: 7px;
-    border: 1px solid #36689b;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid #a7c5e2;
     box-shadow: 0 0 10px 2px rgba(108, 179, 223, 0.815);
     background-color: #f3f3f3;
- padding-top: 10px;
+    padding-top: 10px;
 
 }
 
-.cont-img-serv{
+.cont-img-serv {
     float: inline-start;
     padding-left: 100px;
     padding-top: 25px;
 }
 
-#section-apple{
+#section-apple {
     width: 100%;
-margin-right: auto;
-margin-left: auto;
-height: 400px;
-padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 150px;
+    padding-top: 10px;
 
 }
 
-.iphone p{
-    padding-top: 10px;
+.iphone p {
+    padding-top: 8px;
+}
+
+/* From uiverse.io by @adamgiebl */
+.card {
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: 15px 15px 30px #bbbbbb,
+        -15px -15px 30px #bebebe;
+    transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
+        transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+
+}
+
+.card:hover {
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    transform: scale(1.05);
+}
+
+.cont-consejos {
+    float: inline-start;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+#section-consejos {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    /*padding-top: 10px;*/
+}
+
+.titulo-p-consejos {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #36689b;
+    font-weight: 200;
+    /*Aplica negrita estandar*/
+
+}
+
+.desc-p-consejos {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    /*Aplica negrita estandar*/
+}
+
+#section-precios {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    /*padding-top: 10px;*/
+}
+
+
+
+.cont-pantallas table{
+    border: 1px solid #416898;
+}
+
+.letra-tabla{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color:#36689b ;
 }
