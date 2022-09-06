@@ -858,3 +858,101 @@ display: inline-block;
     text-align: justify;
     
 }
+
+
+.section-horario{
+    width: 100%;
+    padding-left: 150px;
+    height: 400px;
+}
+.mapa-form{
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.ptitulo{
+    font-size: 20px;
+    color: #36689b;
+}
+.span-horario{
+    font-size: 17px;
+
+}
+
+.pdes{
+    font-size: 16px;
+}
+
+.mapa-form ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.mapa-form ul li p{
+    padding-left: 30px;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+.cont-formulario{
+    width: 100%;
+    padding-left: 150px;
+    height: 700px;
+    padding-top: 50px;
+}
+
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow:  0 0 20px 1px rgba(108, 179, 223, 0.815);
+    position: relative;
+}
+
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0;
+    color: rgb(0,0,0,0,.7);
+}
+
+.formulario__input, .formulario__label,
+.formulario__submit{
+display: block;
+width: 100%;
+font-size: 1.3em;
+
+}
+
+.formulario__input{
+    padding: 20px;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+.formulario__input:focus + .formulario__label{/*cuandop el cursor esta seleccionado en los elementos */
+margin-top: -135px;
+}
+
+.formulario__label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
+
+.formulario__submit{
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.fijar{
+    margin-top: -135px;
+}
