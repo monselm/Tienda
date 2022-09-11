@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: #f3f3f3;
+    background-color: #f3f3f3;/*Colo de fondo de la pagina web*/
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 
 }
 
-.wrapper {
+.wrapper { /*contenido para centar(no se utliza)*/
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -26,11 +26,11 @@ header {
 
 header .logo {
     color: #f2f2f2;
-    font-size: 30px;
+    font-size: 30px;/*cambia el tamaño de la letra*/
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 200px;
-    float: left;
-    padding-left: 50px;
+    line-height: 200px;/*define la altura mínima de las casillas encuadradas por líneas dentro del elemento*/
+    float: left;/*, la caja se desplaza todo lo posible a la izquierda de la posición en la que se encontraba. */
+    padding-left: 50px;/*	Establece la anchura de la zona de relleno izquierdo de los elementos*/
 }
 
 header nav {
@@ -43,20 +43,20 @@ header nav {
 .header2 nav a {
     display: inline-block;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none;/*el texto de la navegacion no tiene estilo*/
     padding: 10px 20px;
     line-height: normal;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    -webkit-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;/*Transiciones para el efecto de cambio de color*/
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
-header nav a:hover {
+header nav a:hover {/*efecto de cambio de color de blanco pasa azul cuando el cursos se posiciona en el lugar*/
     background: #36689b;
-    border-radius: 50px;
+    border-radius: 50px;/*las esquinas se redondean*/
 }
 
 .header2 {
@@ -79,7 +79,7 @@ header nav a:hover {
 
 .header2 .img-soporte {
 
-    width: 150px;
+    width: 150px;/*cambia el tamaño de la imagen*/
 
 
 }
@@ -88,7 +88,7 @@ header nav a:hover {
     margin-bottom: 1em;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {/*cambia  las dimensiones del header cuando la pantalla pasa a 950*/
 
     header .logo,
     header nav {
